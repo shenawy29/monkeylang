@@ -20,11 +20,11 @@ const (
 	MINUS    = "-"
 	BANG     = "!"
 	ASTERISK = "*"
-	SLASH
-	LT     = "<"
-	GT     = ">"
-	EQ     = "=="
-	NOT_EQ = "!="
+	SLASH    = "/"
+	LT       = "<"
+	GT       = ">"
+	EQ       = "=="
+	NOT_EQ   = "!="
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
@@ -40,6 +40,9 @@ const (
 	IF       = "IF"
 	ELSE     = "ELSE"
 	RETURN   = "RETURN"
+	STRING   = "STRING"
+	LBRACKET = "["
+	RBRACKET = "]"
 )
 
 var keywords = map[string]TokenType{
